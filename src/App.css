@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,93 @@
   to {
     transform: rotate(360deg);
   }
+} */
+:root{
+  --lightBack: #e6fafe;
+  --mainGreen:#039445;
+  --mainOrange:#e36122;
+  --mainBrown:#737373;
+  --lightBrown:#999;
+  --mainRed:#ED0612;
+  --mainPink:#dc3545;
+  --mainYellow:#ffc922;
+  --lightGreen:#8bc34a;
+  --mainBlue:#0a5d6f;
+  --mainBlack: #000;
+  --mainWhite:#fff;
+  --mainAsh:#eaeaea;
+  --mainJade:#00a86b;
+  
+}
+
+body{
+  font-family:"Publico Banner Web Medium";
+  background:var(--mainWhite)!important;
+  color:var(--mainBlack)!important;
+}
+ a{
+  font-family:"Publico Text Web";
+  color: var(--mainBlue);
+ }
+ p{
+  font-family:"Publico Text Web";
+  color: var(--mainBlue);
+ }
+h1{
+  font-family:"Publico Text Web";
+  color: var(--mainBlue);
+}
+h5{
+  font-family:"Publico Text Web";
+  color:var(--mainBlue);
+}
+
+.text-title{
+  font-family: 'Lora', sans-serif;
+  letter-spacing:0.2rem;
+  font-weight:800;
+  
+
+}
+.text-justify{
+  text-align:justify;
+}
+.text-green{
+  color: var(--mainGreen);
+}
+.bold{
+  
+  font-weight:bold
+}
+.font{
+  font-size:14px;
+}
+.text-pink{
+  color: var(--mainPink);
+  
+}
+.display-none{
+  display:none!important;
+}
+.float-right{
+  float:right!important;
+}
+.float-left{
+  float:left!important;
+}
+.navbar{
+  margin-bottom:0px!important;
+}
+.navbar-toggler-icon{
+ color:var(--mainBlue)!important;
+ font-weight: bold;
+}
+.navbar-toggler{
+  background-color:transparent!important;
+  border-color:transparent!important;
+  color:var(--mainBlue);
+}
+.icon-background{
+  background:var(--lightBack);
+
 }
